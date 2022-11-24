@@ -51,13 +51,6 @@ class MyAppState extends State<MyApp> {
         appBar: AppBar(
           title: const Text('Personal_Todolist'),
           centerTitle: true,
-          // bottom: const TabBar(
-          //   tabs: [
-          //     Tab(icon: Icon(Icons.directions_car)),
-          //     Tab(icon: Icon(Icons.directions_transit)),
-          //     Tab(icon: Icon(Icons.directions_bike)),
-          //   ],
-          // ),
           backgroundColor: Color.fromARGB(255, 0, 0, 0),
           actions: <Widget>[
             new IconButton(
